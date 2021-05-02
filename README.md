@@ -1,7 +1,9 @@
 [1]: ./img/70x70x40.png
 [2]: ./img/70x210x40.png
 
-# __Boxes__  
+# __Boxes-LC__  
+
+The boxes are designed for the assortment system.
 
 The Boxes are designed to be cut with an lasercutter.
 
