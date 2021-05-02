@@ -137,4 +137,4 @@ These boxes are specially designed to hold battery's.
 
 ---
 
-[home](./../README.md)
+[home](https://github.com/tobiasfalk/Assortment_System_Main_Page/blob/master/README.md)
