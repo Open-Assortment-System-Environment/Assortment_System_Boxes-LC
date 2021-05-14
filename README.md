@@ -1,3 +1,4 @@
+[0]: https://github.com/tobiasfalk/Assortment_System_Main_Page/blob/master/README.md
 [1]: ./img/70x70x40.png
 [2]: ./img/70x210x40.png
 
@@ -11,6 +12,19 @@ ${hight}<span style="color:red">✘</span> ->  nothing or only some parts
 ${hight}<span style="color:green">✔</span> -> design done  
 ${hight}<span style="color:green">✔✔</span> -> design and documentation done  
 ${hight}<span style="color:green">✔✔✔</span> -> design, documentation and dxf export done
+
+## __Labeling__
+The labels meant to use are either 64mmx19mm or 63.5mmx38.1mm
+### __Links:__
+#### __64mmx19mm:__  
+a) https://www.amazon.de/Dymo-1933085-Hochleistungs-industrieetiketten-LabelWriter-Etikettendrucker-450-Etiketten/dp/B01M0TKI1U/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=labelwriter+hochleistungs-etiketten+19mm+x+64mm&qid=1620141590&sr=8-2  
+b) https://www.dymo.com/de_DE/lw-durable-labels-19-mm-x-64-mm.html  
+#### __63.5mmx38.1mm:__  
+a) https://www.amazon.de/Herma-4904-Laser-Glossy-Papier-bedruckbar-selbstklebend/dp/B000KJRDI8/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rechteckige+Etiketten%2C+63%2C5+x+38%2C1+mm&qid=1620134258&sr=8-3  
+b) https://www.amazon.de/Universal-Adress-Etiketten-Briefumschl%C3%A4ge-Adressetiketten-abgerundete/dp/B07QWF9TVL/ref=sr_1_12?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rechteckige+Etiketten%2C+63%2C5+x+38%2C1+mm&qid=1620134258&sr=8-12  
+c) https://www.avery-zweckform.com/blanko-etiketten/rechteckig-64x38-mm
+
+With the 63.5mmx38.1mm, the labels are folded around the edge of the top part and the front(wallA) part. After that an cut out needs to be made where the indent for the stacked box is. On the lable it self is a line that indecats the it needs to be folded.
 
 ## __Naming__
 ### __Filename__
@@ -137,4 +151,4 @@ These boxes are specially designed to hold battery's.
 
 ---
 
-[home](https://github.com/tobiasfalk/Assortment_System_Main_Page/blob/master/README.md)
+[home][0]
