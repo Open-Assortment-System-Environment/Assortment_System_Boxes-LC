@@ -4,11 +4,12 @@
 
 # __Boxes-LC__  
 
-The boxes are designed for the assortment system.
-
-The Boxes are designed to be cut with an lasercutter.
+## __Progrs Marking__
+The boxes and box parts are designed for the assortment system.    
+The Boxes and box parts are designed to be cut with an lasercutter.
 
 ${hight}<span style="color:red">✘</span> ->  nothing or only some parts  
+${hight}**<span style="color:blue">≈</span>** -> Partly done(work in progres)
 ${hight}<span style="color:green">✔</span> -> design done  
 ${hight}<span style="color:green">✔✔</span> -> design and documentation done  
 ${hight}<span style="color:green">✔✔✔</span> -> design, documentation and dxf export done
@@ -79,40 +80,140 @@ standard 70x70x40
 ![Image][2]  
 standard 70x210x40  
 
+### __Parts__
+
+#### __Bottom__
+
+1) 70x70(<span style="color:green">✔✔✔</span>)
+
+2) 70x140(<span style="color:green">✔✔✔</span>)
+
+3) 70x210(<span style="color:green">✔✔✔</span>)
+
+4) 70x280(<span style="color:green">✔✔✔</span>)
+
+---
+
+5) 140x140(<span style="color:green">✔✔✔</span>)
+
+6) 140x210(<span style="color:green">✔✔✔</span>)
+
+7) 140x280(<span style="color:green">✔✔✔</span>)
+
+---
+
+8) 210x210(<span style="color:green">✔✔✔</span>)
+
+9) 210x280(<span style="color:red">✘</span>)
+
+10) 280x280(<span style="color:red">✘</span>)
+
+#### __Top__
+
+1) A(<span style="color:green">✔✔✔</span>)
+
+#### __WallA__
+
+1) 70x20(<span style="color:green">✔✔✔</span>)
+
+2) 70x40(<span style="color:green">✔✔✔</span>)
+
+3) 70x60(<span style="color:green">✔✔✔</span>)
+
+---
+
+4) 140x20(<span style="color:green">✔✔✔</span>)
+
+5) 140x40(<span style="color:green">✔✔✔</span>)
+
+6) 140x60(<span style="color:green">✔✔✔</span>)
+
+---
+
+7) 210x20(<span style="color:green">✔✔</span>)
+
+8) 210x40(<span style="color:green">✔✔</span>)
+
+9) 210x60(<span style="color:green">✔✔</span>)
+
+#### __WallB__
+
+1) 70x20(<span style="color:green">✔✔</span>)
+
+#### __WallC__
+
+1) 70x20(<span style="color:green">✔✔</span>)
+
 ### __Width x Depth:__
 
-1) 70x70(<span style="color:green">20✔✔</span>, <span style="color:green">40✔✔</span>, <span style="color:green">60✔✔</span>)
+1) 70x70x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
+    * 1x: bottom_70x70
+    * 1x: top_A
+    * 1x: wallA_70x20/40/60
+    * 1x: wallB_70x20/40/60
+    * 2x: wallC_70x20/40/60
 
-2) 70x140(<span style="color:green">20✔✔</span>, <span style="color:green">40✔✔</span>, <span style="color:green">60✔✔</span>)
 
-3) 70x210(<span style="color:green">20✔✔</span>, <span style="color:green">40✔</span>, <span style="color:red">60✘</span>)
+2) 70x140x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
+    * 1x: bottom_70x70
+    * 1x: top_A
+    * 1x: wallA_70x20/40/60
+    * 1x: wallB_70x20/40/60
+    * 2x: wallC_140x20/40/60
 
-4) 70x280(<span style="color:red">20✘</span>, <span style="color:green">40✔</span>, <span style="color:red">60✘</span>)
+3) 70x210x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
+    * 1x: bottom_70x70
+    * 1x: top_A
+    * 1x: wallA_70x20/40/60
+    * 1x: wallB_70x20/40/60
+    * 2x: wallC_210x20/40/60
+
+4) 70x280x20(**<span style="color:blue">≈</span>**)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
+    * 1x: bottom_70x70
+    * 1x: top_A
+    * 1x: wallA_70x20/40/60
+    * 1x: wallB_70x20/40/60
+    * 2x: wallC_280x20/40/60
 
 
 ---
 
 
-5) 140x140(<span style="color:red">20✘</span>, <span style="color:green">40✔</span>, <span style="color:red">60✘</span>)
+5) 140x140x20(**<span style="color:blue">≈</span>**)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
+    * 1x: bottom_140x140
+    * 1x: top_A
+    * 1x: wallA_140x20/40/60
+    * 1x: wallB_140x20/40/60
+    * 2x: wallC_140x20/40/60
 
-6) 140x210(<span style="color:red">20✘</span>, <span style="color:green">40✔</span>, <span style="color:red">60✘</span>)
+6) 140x210x20(**<span style="color:blue">≈</span>**)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
+    * 1x: bottom_140x140
+    * 1x: top_A
+    * 1x: wallA_140x20/40/60
+    * 1x: wallB_140x20/40/60
+    * 2x: wallC_210x20/40/60
 
-7) 140x280(<span style="color:red">20✘</span>, <span style="color:green">40✔</span>, <span style="color:red">60✘</span>)
+7) 140x280x20(**<span style="color:blue">≈</span>**)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
+    * 1x: bottom_140x140
+    * 1x: top_A
+    * 1x: wallA_140x20/40/60
+    * 1x: wallB_140x20/40/60
+    * 2x: wallC_280x20/40/60
 
 
 ---
 
 
-8) 210x210(<span style="color:red">20✘</span>, <span style="color:green">40✔</span>, <span style="color:red">60✘</span>)
+8) 210x210x20(**<span style="color:blue">≈</span>**)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
 
-9) 210x280(<span style="color:red">20✘</span>, <span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+9) 210x280x20(<span style="color:red">✘</span>)/40(<span style="color:red">✘</span>/60(<span style="color:red">✘</span>)
 
 
 
 ---
 
 
-10) 280x280(<span style="color:red">20✘</span>, <span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+10) 280x280x20(<span style="color:red">✘</span>)/40(<span style="color:red">✘</span>/60(<span style="color:red">✘</span>)
 
 ##  __Reel__
 
@@ -121,15 +222,15 @@ These boxes have a cylinder in the middle for the reel to be secured on
 
 ### __Width x Depth:__
 
-1) 140x140(<span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+1) 140x140x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
-2) 210x210(<span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+2) 210x210x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
-3) 280x280(<span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+3) 280x280x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
-4) 350x350(<span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+4) 350x350x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
-5) 420x420(<span style="color:red">40✘</span>, <span style="color:red">60✘</span>)
+5) 420x420x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
 ##  __Battery__
 
@@ -137,12 +238,12 @@ These boxes are specially designed to hold battery's.
 
 ### __AA:__
 
-1) 70x70\[~2\](<span style="color:red">20✘</span>)
-2) 70x140\[~5\](<span style="color:red">20✘</span>)
+1) 70x70x20(<span style="color:red">✘</span>)\[~2\]
+2) 70x140x20(<span style="color:red">✘</span>)\[~5\]
 
 ### __AAA:__
 
-1) 
+1)
 
 ### __9V-Block:__
 
