@@ -1,6 +1,7 @@
 [0]: https://github.com/tobiasfalk/Assortment_System_Main_Page/blob/master/README.md
 [1]: ./img/70x70x40.png
 [2]: ./img/70x210x40.png
+[3]: ./img/battery-AA-70x70x20.png
 
 # Boxes-LC  
 
@@ -28,36 +29,56 @@ c) https://www.avery-zweckform.com/blanko-etiketten/rechteckig-64x38-mm
 With the 63.5mmx38.1mm, the labels are folded around the edge of the top part and the front(wallA) part. After that an cut out needs to be made where the indent for the stacked box is. On the lable it self is a line that indecats the it needs to be folded.
 
 ## Naming
+
 ### Filename
-%{peace}\_%{width}x%{depth}x%{hight}  
-peace:  
+
+%{peace}\_%{type}\_%{width}x%{depth}x%{hight}    
+
+peace:    
 
 1) box      -> is the hole assembly of the box
 
-2) top ->is the top peace, this hold's the description what is in the box
+3) top ->is the top peace, this hold's the description what is in the box
 
-3) bottom -> is the flor of the box
+4) bottom -> is the flor of the box
 
-4) wallA -> is the front wall in with the top peace is connected
+5) wallA -> is the front wall in with the top peace is connected
 
-5) wallB -> is the back peace
+6) wallB -> is the back peace
 
-6) wallC -> is the side peace
+7) wallC -> is the side peace
+
+---
+
+8) wallD -> is the first middle peace for the Battery-AA Boxes(it is paralel tu the wallA)
+
+9) wallE -> is the first middle peace for the Battery-AA Boxes(it is paralel tu the wallC)
+
+
+type(the type of boxe(empty then its a standart part or box):    
+
+1) reel
+
+2) battery-AA
+
+3) battery-AAA
+
+4) battery-9vblock
 
 ### Id
-box\_%{box\_type}\_%{type}\_%{peace}\_%{width}x%{depth}x%{hight}  
+box\_%{box\_type}\_%{peace}\_%{width}x%{depth}x%{hight}  
 
 box\_type:
 
-1) [standard](##Standard) -> are normal boxes
+1) standard -> are normal boxes
 
-2) [reel](##Reel) -> are designed to hold reels with parts
+2) reel -> are designed to hold reels with parts
 
-3) [battery-AA](###AA) -> are designed to hold AA batter's
+3) battery-AA -> are designed to hold AA batter's
 
-4) [battery-AAA](###AAA) -> are designed to hold AAA batter's
+4) battery-AAA -> are designed to hold AAA batter's
 
-3) [battery-9v-block](###9V-Block) -> are designed to hold AA batter's  
+3) battery-9v-block -> are designed to hold AA batter's  
 
 type:
 
@@ -208,7 +229,7 @@ standard 70x210x40
 
 9) 280x60(<span style="color:red">✘</span>)
 
-### Width x Depth:
+### Boxes:
 
 1) 70x70x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
     * 1x: bottom_70x70
@@ -315,10 +336,35 @@ These boxes have a cylinder in the middle for the reel to be secured on
 
 These boxes are specially designed to hold battery's.
 
+![Image][3]  
+battery-AA 70x70x20  
+
 ### AA:
 
-1) 70x70x20(<span style="color:red">✘</span>)\[~2\]
-2) 70x140x20(<span style="color:red">✘</span>)\[~5\]
+#### Parts
+
+##### Bottom
+
+1) 70x70(<span style="color:green">✔✔</span>)
+
+##### WallD
+
+1) 70x20(<span style="color:green">✔✔</span>)
+
+
+##### WallE
+
+1) 140x20(<span style="color:green">✔✔</span>)
+
+#### Boxes
+
+1) 70x70x20\[2\](<span style="color:green">✔✔</span>)
+    * 1x: bottom_70x70
+    * 1x: top_A
+    * 1x: wallA_70x20
+    * 1x: wallB_70x20
+    * 2x: wallC_70x20
+    * 1x: wallD_battery-AA_70x20
 
 ### AAA:
 
