@@ -108,11 +108,11 @@ standard 70x210x40
 
 10) 280x280(<span style="color:red">✘</span>)
 
-#### __Top__
+#### Top
 
 1) A(<span style="color:green">✔✔✔</span>)
 
-#### __WallA__
+#### WallA
 
 1) 70x20(<span style="color:green">✔✔✔</span>)
 
@@ -144,7 +144,7 @@ standard 70x210x40
 
 9) 280x60(<span style="color:red">✘</span>)
 
-#### __WallB__
+#### WallB
 
 1) 70x20(<span style="color:green">✔✔</span>)
 
