@@ -2,9 +2,9 @@
 [1]: ./img/70x70x40.png
 [2]: ./img/70x210x40.png
 
-# __Boxes-LC__  
+# Boxes-LC  
 
-## __Progrs Marking__
+## Progrs Marking
 The boxes and box parts are designed for the assortment system.    
 The Boxes and box parts are designed to be cut with an lasercutter.
 
@@ -14,21 +14,21 @@ ${hight}<span style="color:green">✔</span> -> design done
 ${hight}<span style="color:green">✔✔</span> -> design and documentation done  
 ${hight}<span style="color:green">✔✔✔</span> -> design, documentation and dxf export done
 
-## __Labeling__
+## Labeling
 The labels meant to use are either 64mmx19mm or 63.5mmx38.1mm
-### __Links:__
-#### __64mmx19mm:__  
+### Links:
+#### 64mmx19mm:  
 a) https://www.amazon.de/Dymo-1933085-Hochleistungs-industrieetiketten-LabelWriter-Etikettendrucker-450-Etiketten/dp/B01M0TKI1U/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=labelwriter+hochleistungs-etiketten+19mm+x+64mm&qid=1620141590&sr=8-2  
 b) https://www.dymo.com/de_DE/lw-durable-labels-19-mm-x-64-mm.html  
-#### __63.5mmx38.1mm:__  
+#### 63.5mmx38.1mm:  
 a) https://www.amazon.de/Herma-4904-Laser-Glossy-Papier-bedruckbar-selbstklebend/dp/B000KJRDI8/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rechteckige+Etiketten%2C+63%2C5+x+38%2C1+mm&qid=1620134258&sr=8-3  
 b) https://www.amazon.de/Universal-Adress-Etiketten-Briefumschl%C3%A4ge-Adressetiketten-abgerundete/dp/B07QWF9TVL/ref=sr_1_12?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Rechteckige+Etiketten%2C+63%2C5+x+38%2C1+mm&qid=1620134258&sr=8-12  
 c) https://www.avery-zweckform.com/blanko-etiketten/rechteckig-64x38-mm
 
 With the 63.5mmx38.1mm, the labels are folded around the edge of the top part and the front(wallA) part. After that an cut out needs to be made where the indent for the stacked box is. On the lable it self is a line that indecats the it needs to be folded.
 
-## __Naming__
-### __Filename__
+## Naming
+### Filename
 %{peace}\_%{width}x%{depth}x%{hight}  
 peace:  
 
@@ -44,7 +44,7 @@ peace:
 
 6) wallC -> is the side peace
 
-### __Id__
+### Id
 box\_%{box\_type}\_%{type}\_%{peace}\_%{width}x%{depth}x%{hight}  
 
 box\_type:
@@ -65,7 +65,7 @@ type:
 
 2) a -> are the assembled boxes(doesn't have %{peace})
 
-## __Hights:__
+## Hights:
 
 1) 20
 
@@ -73,16 +73,16 @@ type:
 
 3) 60
 
-## __Standard__
+## Standard
 
 ![Image][1]  
 standard 70x70x40  
 ![Image][2]  
 standard 70x210x40  
 
-### __Parts__
+### Parts
 
-#### __Bottom__
+#### Bottom
 
 1) 70x70(<span style="color:green">✔✔✔</span>)
 
@@ -176,7 +176,7 @@ standard 70x210x40
 
 9) 280x60(<span style="color:red">✘</span>)
 
-#### __WallC__
+#### WallC
 
 1) 70x20(<span style="color:green">✔✔</span>)
 
@@ -208,7 +208,7 @@ standard 70x210x40
 
 9) 280x60(<span style="color:red">✘</span>)
 
-### __Width x Depth:__
+### Width x Depth:
 
 1) 70x70x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
     * 1x: [bottom_70x70](./README.md/#Boxes-LC/##Standard/###Parts/####Bottom)
@@ -294,12 +294,12 @@ standard 70x210x40
     * 1x: wallB_280x20/40/60
     * 2x: wallC_280x20/40/60
 
-##  __Reel__
+##  Reel
 
 These boxes have a cylinder in the middle for the reel to be secured on
 
 
-### __Width x Depth:__
+### Width x Depth:
 
 1) 140x140x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
@@ -311,20 +311,20 @@ These boxes have a cylinder in the middle for the reel to be secured on
 
 5) 420x420x40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
 
-##  __Battery__
+##  Battery
 
 These boxes are specially designed to hold battery's.
 
-### __AA:__
+### AA:
 
 1) 70x70x20(<span style="color:red">✘</span>)\[~2\]
 2) 70x140x20(<span style="color:red">✘</span>)\[~5\]
 
-### __AAA:__
+### AAA:
 
 1)
 
-### __9V-Block:__
+### 9V-Block:
 
 1)  
 
