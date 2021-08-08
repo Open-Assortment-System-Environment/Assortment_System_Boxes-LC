@@ -130,28 +130,92 @@ standard 70x210x40
 
 ---
 
+7) 210x20(<span style="color:green">✔✔✔</span>)
+
+8) 210x40(<span style="color:green">✔✔✔</span>)
+
+9) 210x60(<span style="color:green">✔✔✔</span>)
+
+---
+
+7) 280x20(<span style="color:red">✘</span>)
+
+8) 280x40(<span style="color:red">✘</span>)
+
+9) 280x60(<span style="color:red">✘</span>)
+
+#### __WallB__
+
+1) 70x20(<span style="color:green">✔✔</span>)
+
+2) 70x40(<span style="color:green">✔✔</span>)
+
+3) 70x60(<span style="color:green">✔✔</span>)
+
+---
+
+4) 140x20(<span style="color:green">✔✔</span>)
+
+5) 140x40(<span style="color:green">✔✔</span>)
+
+6) 140x60(<span style="color:green">✔✔</span>)
+
+---
+
 7) 210x20(<span style="color:green">✔✔</span>)
 
 8) 210x40(<span style="color:green">✔✔</span>)
 
 9) 210x60(<span style="color:green">✔✔</span>)
 
-#### __WallB__
+---
 
-1) 70x20(<span style="color:green">✔✔</span>)
+7) 280x20(<span style="color:red">✘</span>)
+
+8) 280x40(<span style="color:red">✘</span>)
+
+9) 280x60(<span style="color:red">✘</span>)
 
 #### __WallC__
 
 1) 70x20(<span style="color:green">✔✔</span>)
 
+2) 70x40(<span style="color:green">✔✔</span>)
+
+3) 70x60(<span style="color:green">✔✔</span>)
+
+---
+
+4) 140x20(<span style="color:green">✔✔</span>)
+
+5) 140x40(<span style="color:green">✔✔</span>)
+
+6) 140x60(<span style="color:green">✔✔</span>)
+
+---
+
+7) 210x20(<span style="color:green">✔✔</span>)
+
+8) 210x40(<span style="color:green">✔✔</span>)
+
+9) 210x60(<span style="color:green">✔✔</span>)
+
+---
+
+7) 280x20(<span style="color:red">✘</span>)
+
+8) 280x40(<span style="color:red">✘</span>)
+
+9) 280x60(<span style="color:red">✘</span>)
+
 ### __Width x Depth:__
 
 1) 70x70x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
-    * 1x: bottom_70x70
-    * 1x: top_A
-    * 1x: wallA_70x20/40/60
-    * 1x: wallB_70x20/40/60
-    * 2x: wallC_70x20/40/60
+    * 1x: [bottom_70x70](####Bottom)
+    * 1x: [top_A](####Top)
+    * 1x: [wallA_70x20/40/60](####WallA)
+    * 1x: [wallB_70x20/40/60](####WallB)
+    * 2x: [wallC_70x20/40/60](####WallC)
 
 
 2) 70x140x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
@@ -205,15 +269,30 @@ standard 70x210x40
 
 
 8) 210x210x20(**<span style="color:blue">≈</span>**)/40(<span style="color:green">✔✔</span>)/60(**<span style="color:blue">≈</span>**)
+    * 1x: bottom_210x210
+    * 1x: top_A
+    * 1x: wallA_210x20/40/60
+    * 1x: wallB_210x20/40/60
+    * 2x: wallC_210x20/40/60
 
-9) 210x280x20(<span style="color:red">✘</span>)/40(<span style="color:red">✘</span>/60(<span style="color:red">✘</span>)
+9) 210x280x20(<span style="color:red">✘</span>)/40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
+    * 1x: bottom_210x210
+    * 1x: top_A
+    * 1x: wallA_210x20/40/60
+    * 1x: wallB_210x20/40/60
+    * 2x: wallC_280x20/40/60
 
 
 
 ---
 
 
-10) 280x280x20(<span style="color:red">✘</span>)/40(<span style="color:red">✘</span>/60(<span style="color:red">✘</span>)
+10) 280x280x20(<span style="color:red">✘</span>)/40(<span style="color:red">✘</span>)/60(<span style="color:red">✘</span>)
+    * 1x: bottom_280x280
+    * 1x: top_A
+    * 1x: wallA_280x20/40/60
+    * 1x: wallB_280x20/40/60
+    * 2x: wallC_280x20/40/60
 
 ##  __Reel__
 
