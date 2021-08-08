@@ -213,7 +213,7 @@ standard 70x210x40
 1) 70x70x20(<span style="color:green">✔✔</span>)/40(<span style="color:green">✔✔</span>)/60(<span style="color:green">✔✔</span>)
     * 1x: [bottom_70x70](./README.md/#Boxes-LC/##Standard/###Parts/####Bottom)
     * 1x: [top_A](####Top)
-    * 1x: [wallA_70x20/40/60](####-WallA)
+    * 1x: [wallA_70x20/40/60](####_WallA)
     * 1x: [wallB_70x20/40/60](####WallB)
     * 2x: [wallC_70x20/40/60](####WallC)
 
