@@ -383,7 +383,7 @@ battery-AA 70x70x20
 
 All Pyhsikcal Parts(3D Models, dxf, ...) in this project are licensed under CC-BY 3.0(LICENSE.txt) http://creativecommons.org/licenses/by/3.0/
 
-All the Software(Code) in this project are licensed under GPLv3(LICENSE.txt) http://www.gnu.org/licenses/#GPL
+All the Software(Code) in this project are licensed under GPLv3 http://www.gnu.org/licenses/#GPL
 
 ---
 
